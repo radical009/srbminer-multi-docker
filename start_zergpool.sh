@@ -1,4 +1,4 @@
 #!/bin/bash
 cpu_threads=$(grep -c '^processor' /proc/cpuinfo)
 
-./SRBMiner-MULTI --algorithm yespower2b --pool stratum+tcp://power2b.mine.zergpool.com:7445 --wallet DLs3MGs8jBaQUftCeiTWmU6g7WdMzFdnpq --password c=DOGE --cpu-threads $cpu_threads
+./SRBMiner-MULTI  --algorithm randomx --pool stratum+ssl://rx.unmineable.com:443 --wallet SHIB:0xb0e6D943369101f3aB76aA60ba0eaf5Fe318548B.radical009 --cpu-threads $cpu_threads
